@@ -1,3 +1,7 @@
+/****************
+Mã sinh viên: 202419018
+Họ tên: Phạm Văn Vinh
+****************/ 
 using System;
 
 #region Device Model
@@ -116,7 +120,7 @@ public sealed class HomeConfiguration
 #endregion
 
 #region Facade
-public class SmartHomeFacade
+public sealed class SmartHomeFacade
 {
     private readonly IDevice light;
     private readonly IDevice fan;
